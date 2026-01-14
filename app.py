@@ -63,7 +63,7 @@ def load_font(size, bold=False):
     return ImageFont.load_default()
 
 def make_receipt_image(data):
-    W = 900
+    W = 680  # reduced width for better mobile/Streamlit fit
     pad = 48
     bg = (255, 255, 255)
     ink = (25, 25, 25)
