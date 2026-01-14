@@ -1,20 +1,17 @@
-# jhgbinwash Receipt Generator (Private)
+# JHG Receipt Generator (Private)
 
-## Run locally
-```bash
-python3 -m pip install -r requirements.txt
-python3 -m streamlit run app.py
-```
+A simple Streamlit web app to generate professional receipt images (PNG) to send via WhatsApp, Messenger, or SMS.
 
-## Deploy (Streamlit Community Cloud)
-1) Create a GitHub repo and upload `app.py`, `requirements.txt`, `README.md`
-2) Deploy the repo in Streamlit Community Cloud
-3) Add Secret:
-   - `APP_PASSWORD` = your password
+## Run locally (Mac recommended)
+1) Install Python 3.10+
+2) In terminal:
+   pip install -r requirements.txt
+   streamlit run app.py
 
-## Modes
-- One-time service (manual): flexible pricing.
-- Biweekly Membership (preset): fixed plans (1 Bin $15, 2 Bins $30, 3 Bins $40).
+## Deploy (optional)
+- Streamlit Community Cloud (fast + free for small use)
+- Render / Railway / Fly.io (more control)
 
-## iPhone
-Open the deployed link in Safari → Share → Add to Home Screen.
+## Notes
+- Upload your logo (PNG recommended).
+- The receipt is bilingual (English/Spanish) by default.
